@@ -4,6 +4,7 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
+      backgroundColor:Color(0xFFfff1ba),
       // our app body will be define in body
       // body: ,
 

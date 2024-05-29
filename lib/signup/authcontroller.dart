@@ -53,24 +53,3 @@ class AuthService {
     }
   }
 }
-
-//Controller for signup
-// controller: _authService.emailController,
-
-// onPressed: () {
-// if (_formKey.currentState!.validate()) {
-// _authService.signUp(context);
-// }
-// },
-// child: Text('Sign Up'),
-// ),
-
-
-
-// onPressed: () {
-// if (_formKey.currentState!.validate()) {
-// _authService.login(context);
-// }
-// },
-// child: Text('Login'),
-// )

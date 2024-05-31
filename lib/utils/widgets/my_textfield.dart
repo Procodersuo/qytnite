@@ -7,14 +7,19 @@ class MyTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     TextEditingController emailController = TextEditingController();
-    return TextField(
-      controller: emailController,
-      decoration: InputDecoration(
-          filled: true,
-          fillColor: AppConstant.textFormField,
-          border: OutlineInputBorder(
-              borderSide: BorderSide.none,
-              borderRadius: BorderRadius.circular(30))),
+    return Container(
+      height: 50,
+      child: TextField(
+        keyboardType: TextInputType.text,
+        controller: emailController,
+        decoration: InputDecoration(
+            hintStyle: TextStyle(height: 1),
+            filled: true,
+            fillColor: AppConstant.textFormField,
+            border: OutlineInputBorder(
+                borderSide: BorderSide.none,
+                borderRadius: BorderRadius.circular(30))),
+      ),
     );
   }
 }

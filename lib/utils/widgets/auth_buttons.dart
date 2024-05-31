@@ -10,7 +10,7 @@ class AuthButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 40,
-      width: 120,
+      width: 105,
       decoration: BoxDecoration(
           border: Border.all(color: Colors.white),
           borderRadius: BorderRadius.circular(30)),
@@ -18,7 +18,7 @@ class AuthButton extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           SvgPicture.asset(
-            svg, height: 25,
+            svg, height: 22,
             //fit: BoxFit.cover,
           ),
           Text(

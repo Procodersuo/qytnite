@@ -17,6 +17,7 @@ dependencies:
   google_sign_in: ^6.2.1
   firebase_auth: ^4.19.6
   firebase_core: ^2.32.0
+  flutter_svg: ^2.0.10+1
 
 
   cupertino_icons: ^1.0.6
@@ -35,8 +36,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/images/pngs/
+    - assets/images/svgs/
 
 
   # fonts:

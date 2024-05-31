@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:qytnite/utils/colors.dart';
 import 'package:qytnite/utils/constants.dart';
 import 'package:qytnite/utils/widgets/access_button.dart';
 import 'package:qytnite/utils/widgets/auth_buttons.dart';
@@ -18,11 +19,7 @@ class LoginScreen extends StatelessWidget {
           width: screenSize.width,
           height: screenSize.height,
           decoration: BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.topRight,
-              end: Alignment.bottomLeft,
-              colors: [Color(0xfff142135), Color(0xfff816F75)],
-            ),
+            gradient: MyAppColors.primaryGradient,
           ),
           child: SingleChildScrollView(
             child: Column(

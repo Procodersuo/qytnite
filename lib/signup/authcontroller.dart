@@ -20,12 +20,12 @@ class AuthService {
     passwordFocusNode.dispose();
   }
 
-  Future<void> signUp(BuildContext context) async {
+  Future<void> signUp(BuildContext context, String email, String password) async {
     loading = true;
     try {
       await _auth.createUserWithEmailAndPassword(
-          email: emailController.text.trim(),
-          password: passwordController.text.trim());
+          email: email.trim(),
+          password: password.trim());
     } catch (error) {
       print(error.toString());
     } finally {
@@ -33,15 +33,13 @@ class AuthService {
     }
   }
 
-  Future<void> login(BuildContext context) async {
+  Future<void> login(BuildContext context, String email, String password) async {
     loading = true;
     try {
       UserCredential value = await _auth.signInWithEmailAndPassword(
-          email: emailController.text.trim(),
-          password: passwordController.text.trim());
+          email: email.trim(),
+          password: password.trim());
       print(value.user!.email.toString());
-      // 2 lines commented to navigate home screen
-
 
       Navigator.push(
           context, MaterialPageRoute(builder: (context) => MyApp()));

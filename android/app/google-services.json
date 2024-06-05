@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "781494527759",
+    "project_id": "qytnite-c487d",
+    "storage_bucket": "qytnite-c487d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781494527759:android:5ca41cbd9b53277602407a",
+        "android_client_info": {
+          "package_name": "com.example.qytnite"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIpO5MDS34T85me18jVI1gpSum3PV12oo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

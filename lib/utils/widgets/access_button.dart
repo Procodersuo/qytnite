@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:qytnite/utils/colors.dart';
+=======
+>>>>>>> cc98bddf57ed76a4f39014b52780935257151dfe
 
 class AccessButton extends StatelessWidget {
   const AccessButton({super.key});
@@ -13,12 +16,18 @@ class AccessButton extends StatelessWidget {
         width: 160,
         child: Row(
           children: [
+<<<<<<< HEAD
             Padding(
               padding: const EdgeInsets.only(left: 3),
               child: Image.asset(
                 'assets/images/pngs/no_text_logo.png',
                 height: 50,
               ),
+=======
+            Image.asset(
+              'assets/images/pngs/no_text_logo.png',
+              height: 60,
+>>>>>>> cc98bddf57ed76a4f39014b52780935257151dfe
             ),
             Column(
               children: [
@@ -31,8 +40,12 @@ class AccessButton extends StatelessWidget {
                 ),
                 Text(
                   'Acess',
+<<<<<<< HEAD
                   style: TextStyle(
                       fontWeight: FontWeight.bold, color: MyAppColors.darkText),
+=======
+                  style: TextStyle(fontWeight: FontWeight.bold),
+>>>>>>> cc98bddf57ed76a4f39014b52780935257151dfe
                 ),
               ],
             )
